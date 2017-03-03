@@ -1,0 +1,91 @@
+// Colors
+
+@text-color: #D8F0FF;
+@text-color-subtle: #AEBCBF;
+@text-color-highlight: #fff;
+@text-color-selected: @text-color-highlight;
+
+@text-color-info: #A5DCFF;
+@text-color-success: #3CD880;
+@text-color-warning: #FFAB51;
+@text-color-error: #e03c3c;
+
+@text-color-ignored: @text-color-subtle;
+@text-color-added: @text-color-success;
+@text-color-renamed: @text-color-info;
+@text-color-modified: @text-color-warning;
+@text-color-removed: @text-color-error;
+
+@background-color-info: #569CD8;
+@background-color-success: #56C988;
+@background-color-warning: #FFB547;
+@background-color-error: #CC4F4F;
+@background-color-highlight: rgba(255, 255, 255, 0.07);
+@background-color-selected: #755051;
+
+@app-background-color: #636B7F;
+
+@base-background-color: darken(@tool-panel-background-color, 5%);
+@base-border-color: rgba(99, 107, 127, 0.5);
+
+@pane-item-background-color: @base-background-color;
+@pane-item-border-color: rgba(99, 107, 127, 0.5);
+
+@input-background-color: #6C787F;
+@input-border-color: @base-border-color;
+
+@tool-panel-background-color: #707D84;
+@tool-panel-border-color: @base-border-color;
+
+@inset-panel-background-color: #84939C;
+@inset-panel-border-color: @base-border-color;
+
+@panel-heading-background-color: #A2B4BF;
+@panel-heading-border-color: fadein(@base-border-color, 10%);
+
+@overlay-background-color: #363C40;
+@overlay-border-color: @background-color-highlight;
+
+@button-background-color: #6C787F;
+@button-background-color-hover: lighten(@button-background-color, 5%);
+@button-background-color-selected: #A2B4BF;
+@button-border-color: @base-border-color;
+
+@tab-bar-background-color: #363C40;
+@tab-bar-border-color: darken(@tab-background-color-active, 10%);
+@tab-background-color: #6C787F;
+@tab-background-color-active: #363C40;
+@tab-border-color: #363C40;
+
+@tree-view-background-color: #363C40;
+@tree-view-border-color: @tool-panel-border-color;
+
+@scrollbar-background-color: #6C787F; // Needs to be opaque -> atom/atom/issues/4578
+@scrollbar-color: rgba(92, 92, 92, 0.5);
+
+@ui-site-color-1: @background-color-success; // green
+@ui-site-color-2: @background-color-info; // blue
+@ui-site-color-3: @background-color-warning; // orange
+@ui-site-color-4: #C43ED8; // purple
+@ui-site-color-5: #C9B716; // yellow
+
+
+// Sizes
+
+@font-size: 11px;
+@input-font-size: 14px;
+
+@disclosure-arrow-size: 12px;
+
+@component-padding: 10px;
+@component-icon-padding: 5px;
+@component-icon-size: 16px;
+@component-line-height: 25px;
+@component-border-radius: 2px;
+
+@tab-height: 26px;
+
+
+// Other
+
+@font-family: 'Fira Mono', 'Lucida Grande', 'Segoe UI', Ubuntu, Cantarell, sans-serif;
