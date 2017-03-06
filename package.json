@@ -1,10 +1,10 @@
 {
-  "name": "void-ui",
+  "name": "cool-beans-ui",
   "theme": "ui",
   "version": "0.1.0",
   "description": "A easy-on-the-eyes dark UI theme for Atom",
   "license": "MIT",
-  "repository": "https://github.com/jhelst/void-ui",
+  "repository": "https://github.com/jhelst/cool-beans-ui",
   "engines": {
     "atom": ">0.40.0"
   }
