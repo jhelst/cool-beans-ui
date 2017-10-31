@@ -8,11 +8,10 @@ Sidebar
 
 ![preview](https://github.com/jhelst/cool-beans-ui/blob/master/theme-preview.png?raw=true)
 
-Settings and other panes
+Settings and Other Panes
 
 ![preview](https://github.com/jhelst/cool-beans-ui/blob/master/theme-settings.png?raw=true)
 
 Tabs
 
 ![preview](https://github.com/jhelst/cool-beans-ui/blob/master/theme-tabs.png?raw=true)
-
